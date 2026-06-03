@@ -1,4 +1,6 @@
 from dataclasses import dataclass
+from typing import Optional
+import pandas as pd
 import numpy as np
 
 
@@ -10,4 +12,14 @@ class TerrainData:
     crs: object
     width: int
     height: int
-    nodata: float
+    nodata: Optional[float]
+
+
+@dataclass
+class ClimateData:
+    weather_df: pd.DataFrame
+    latitude: float
+    longitude: float
+    elevation: float
+    timezone: str
+    location_name: str
