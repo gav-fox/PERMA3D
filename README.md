@@ -18,5 +18,8 @@ My goal is that PERMA3D meets the user with the tools they have, whether that is
 
 The visualisation is built in Godot, a game engine. The graphics might seem overkill for a land design tool but my hope is that exploring and designing within an immersive digital twin of your site will enhance the quality of design decisions. 
 
-For updates I am journalling this build @ JOURNAL.md I learn with the project. I am documenting this openly as I learn and make mistakes. 
+I am documenting this openly as I learn and make mistakes. 
+
+For updates I am journalling this build @ JOURNAL.md. 
+
 
